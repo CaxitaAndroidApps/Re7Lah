@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="heading">اكتشاف الأماكن التي لم يسبق له مثيل</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arab">English</string>
+    <string name="flight">رحلات طيران</string>
+    <string name="oneway">ذهاب فقط</string>
+    <string name="round">ذهاب وعودة</string>
+    <string name="multi">وجهات متعددة</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+    <string name="depart">الذهاب</string>
+    <string name="arrival">العودة</string>
+    <string name="adult">بالغ</string>
+    <string name="children">طفل</string>
+    <string name="infant">رضيع</string>
+    <string name="search">بحث</string>
+    <string name="searchfor">بحث إلى ل المدينة أو مطار</string>
+    <string name="cityname">إدخال إلى المدينة الاسم</string>
+    <string name="city">المدينة</string>
+    <string name="clas">درجة / المقصورة</string>
+    <string name="direct">رحلة مباشرة</string>
+    <string name="prefered">شركة الطيران المفضلة</string>
+    <string name="enterprefered">إدخال ك شركة الطيران المفضلة</string>
+    <string name="traveller">مسافرين</string>
+    <string name="search_flight"> البحث عن رحلات</string>
+
+    <string-array name="nav_drawer_items">
+        <item>الرئيسية</item>
+        <item>الحجز الخاص بي</item>
+        <item>اتصل بنا</item>
+        <item>يرسلنا</item>
+    </string-array>
+
+    <string name="abo">من نحن ؟</string>
+    <string name="serv">خدماتنا</string>
+    <string name="mabo">دارة حجوزاتي</string>
+    <string name="register">تسجيل</string>
+    <string name="cont">إتصل بنا</string>
+    <string name="or">أو</string>
+
+    <!-- Flight Class Spinner Items -->
+    <string-array name="class_spinner_items">
+        <item>الدرجة السياحية</item>
+        <item>السياحية الثانية</item>
+        <item>رجال الأعمال</item>
+        <item>الدرجة الأولى</item>
+    </string-array>
+
+    <string name="no_match">لا يوجد مقالات مطابقة المعلمة بك</string>
+    <string name="error_title">خطأ</string>
+    <string name="error_msg_same_dep_arr">يجب المغادرة والوصول مطار لا يكون نفس</string>
+    <string name="error_msg_same_dep_arr_multi_1">ييجب المغادرة والوصول مطار لا يكون نفس  - رحلة 1 </string>
+    <string name="error_msg_same_dep_arr_multi_2">يجب المغادرة والوصول مطار لا يكون نفس  - رحلة 2 </string>
+    <string name="error_msg_same_dep_arr_multi_3">يجب المغادرة والوصول مطار لا يكون نفس - رحلة 3 </string>
+    <string name="error_msg_same_dep_arr_multi_4">يجب المغادرة والوصول مطار لا يكون نفس  - رحلة 4 </string>
+    <string name="error_search_lmt">يمكن البحث عما لا يزيد عن 9 مسافرين فقط</string>
+    <string name="error_infant_cnt">لا يجوز أن يكون عدد الرضع أعلى من البالغين</string>
+    <string name="ok">موافق</string>
+    <string name="error_no_internet_title">الوصول إلى الإنترنت غير متوفر</string>
+    <string name="error_no_internet_msg">يتطلب هذا التطبيق الدخول إلى الإنترنت العمل. يرجى الاتصال بالإنترنت و المحاولة مرة أخرى .</string>
+    <string name="error_no_internet_settings">إعدادات</string>
+    <string name="error_no_internet_cancel">إلغاء</string>
+    <string name="error_no_internet_close_app">انهيار التطبيق</string>
+    <string name="default_city_to">دبي</string>
+    <string name="default_city_from">الكويت</string>
+    <string name="exit_msg">انقر مرة أخرى للخروج</string>
+    <string name="passenger_no">المسافرين</string>
+    <string name="add_trip">إضافة رحلة أخرى</string>
+    <string name="remove_trip">إزالة رحلة</string>
+    <string name="depart_date">تاريخ الذهاب</string>
+    <string name="return_date">تاريخ العودة</string>
+    <string name="checkin_date">تأكيد الدخول</string>
+    <string name="checkout_date">تأكيد الخروج</string>
+    <string name="err_child_grt_adult">عدد الأطفال أقل من عامين لا يمكن أن يتجاوز الكبار</string>
+
+    <string name="hotel">فندق</string>
+    <!-- Hotel Room Nos -->
+    <string-array name="room_spinner_items">
+        <item>غرفة 1</item>
+        <item>غرفة 2</item>
+        <item>غرفة 3</item>
+        <item>غرفة 4</item>
+        <item>غرفة 5</item>
+    </string-array>
+
+    <string name="nationality">الجنسية</string>
+    <string name="room">غرف</string>
+    <string name="room1">غرفة 1</string>
+    <string name="room2">غرفة 2</string>
+    <string name="room3">غرفة 3</string>
+    <string name="room4">غرفة 4</string>
+    <string name="room5">غرفة 5</string>
+    <string name="cityorhotel">موقع الفندق</string>
+    <string name="type_city">المدينة</string>
+    <string name="name">ابحث عن اسم الفندق</string>
+    <string name="adult1">بالغ ( 12 + )</string>
+    <string name="child1">طفل ( 2-11)</string>
+    <string name="infant1">رضيع (&lt;2)</string>
+    <string name="add_room">اضافة غرفة</string>
+    <string name="remove_room">ازالة -</string>
+    <string name="guests">الزائرين</string>
+    <string name="adult_nos">عدد من بالغ</string>
+    <string name="child_nos">عدد من طفل</string>
+    <string name="child1_age">عمر الطفل 1 </string>
+    <string name="child2_age">عمر الطفل 2</string>
+    <string name="child3_age">عمر طفل 3</string>
+    <string name="child4_age">عمر طفل 4</string>
+    <string name="search_city_hotel">البحث عن فندق</string>
+    <string name="search_nation">الحث عن جنسيتك</string>
+    <string name="err_msg_select_city">الرجاء اختيار المدينة</string>
+    <string name="err_msg_select_nation">الرجاء اختيار جنسيتك</string>
+    <string name="search_hotel">البحث عن فندق</string>
+
+</resources>

@@ -1,0 +1,1512 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/bon_violet"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="3dp"
+                    android:rotationY="180"
+                    android:src="@drawable/ic_flight" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:padding="8dp"
+                    android:text="@string/search_flight"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#99000000"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_multi_tab"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center_vertical|right"
+                        android:onClick="clicker" >
+
+                        <TextView
+                            android:id="@+id/tv_multi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/multi"
+                            android:textColor="@android:color/white" />
+
+                        <CheckBox
+                            android:id="@+id/cb_multi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:button="@drawable/checkbox_selector"
+                            android:clickable="false"
+                            android:text="@null" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_round_tab"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center_vertical|right"
+                        android:onClick="clicker" >
+
+                        <TextView
+                            android:id="@+id/tv_round"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/round"
+                            android:textColor="@android:color/white" />
+
+                        <CheckBox
+                            android:id="@+id/cb_round"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:button="@drawable/checkbox_selector"
+                            android:checked="true"
+                            android:clickable="false"
+                            android:text="@null" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_one_way_tab"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center_vertical|right"
+                        android:onClick="clicker" >
+
+                        <TextView
+                            android:id="@+id/tv_oneway"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/oneway"
+                            android:textColor="@android:color/white" />
+
+                        <CheckBox
+                            android:id="@+id/cb_one_way"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:button="@drawable/checkbox_selector"
+                            android:clickable="false"
+                            android:text="@null" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_multicity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:id="@+id/ll_destination_multi_a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/from"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_from_multi_a"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@drawable/flight_tab_background"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|left"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/tv_from_code_multi_a"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:text="KWI"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/tv_from_city_multi_a"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/depart"
+                                        android:padding="8dp"
+                                        android:singleLine="true"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/to"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/iv_switch_multi_a"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/search_arrow"
+                                android:visibility="gone" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_to_multi_a"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@drawable/flight_tab_background"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|left"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/tv_to_code_multi_a"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:text="DXB"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/tv_to_city_multi_a"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/arrival"
+                                        android:padding="8dp"
+                                        android:singleLine="true"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_dates_multi_a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="right"
+                                android:orientation="horizontal"
+                                android:weightSum="2" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/depart_date"
+                                        android:textColor="@android:color/white" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_depart_date_multi_a"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal" >
+
+                                        <ImageView
+                                            android:layout_width="35dp"
+                                            android:layout_height="35dp"
+                                            android:src="@drawable/calendar" />
+
+                                        <TextView
+                                            android:id="@+id/tv_depart_date_multi_a"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="5dp"
+                                            android:layout_weight="1"
+                                            android:gravity="right"
+                                            android:paddingEnd="5dp"
+                                            android:paddingRight="5dp"
+                                            android:text="09/06/2016"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="15sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_destination_multi_b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/from"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_from_multi_b"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@drawable/flight_tab_background"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|left"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/tv_from_code_multi_b"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:text="KWI"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/tv_from_city_multi_b"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/depart"
+                                        android:padding="8dp"
+                                        android:singleLine="true"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/to"
+                                android:textColor="@android:color/white" />
+
+                            <ImageView
+                                android:id="@+id/iv_switch_multi_b"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/search_arrow"
+                                android:visibility="gone" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_to_multi_b"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@drawable/flight_tab_background"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|left"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/tv_to_code_multi_b"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:text="DXB"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/tv_to_city_multi_b"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/arrival"
+                                        android:padding="8dp"
+                                        android:singleLine="true"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_dates_multi_b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="right"
+                                android:orientation="horizontal"
+                                android:weightSum="2" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/depart_date"
+                                        android:textColor="@android:color/white" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_depart_date_multi_b"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="50dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal" >
+
+                                        <ImageView
+                                            android:layout_width="35dp"
+                                            android:layout_height="35dp"
+                                            android:src="@drawable/calendar" />
+
+                                        <TextView
+                                            android:id="@+id/tv_depart_date_multi_b"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="5dp"
+                                            android:layout_weight="1"
+                                            android:gravity="right"
+                                            android:paddingEnd="5dp"
+                                            android:paddingRight="5dp"
+                                            android:text="09/06/2016"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="15sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/l1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:id="@+id/l2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone" >
+
+                                <LinearLayout
+                                    android:id="@+id/ll_destination_multi_c"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="right|end"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/from"
+                                        android:textColor="@android:color/white" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_from_multi_c"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="45dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center|left"
+                                            android:orientation="horizontal" >
+
+                                            <TextView
+                                                android:id="@+id/tv_from_code_multi_c"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_margin="5dp"
+                                                android:text="KWI"
+                                                android:textSize="15sp"
+                                                android:textStyle="bold"
+                                                android:visibility="gone" />
+
+                                            <TextView
+                                                android:id="@+id/tv_from_city_multi_c"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:hint="@string/depart"
+                                                android:padding="8dp"
+                                                android:singleLine="true"
+                                                android:textColor="@android:color/black"
+                                                android:textSize="15sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:text="@string/to"
+                                        android:textColor="@android:color/white" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_switch_multi_c"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        android:src="@drawable/search_arrow"
+                                        android:visibility="gone" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_to_multi_c"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="45dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center|left"
+                                            android:orientation="horizontal" >
+
+                                            <TextView
+                                                android:id="@+id/tv_to_code_multi_c"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_margin="5dp"
+                                                android:text="DXB"
+                                                android:textSize="15sp"
+                                                android:textStyle="bold"
+                                                android:visibility="gone" />
+
+                                            <TextView
+                                                android:id="@+id/tv_to_city_multi_c"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:hint="@string/arrival"
+                                                android:padding="8dp"
+                                                android:singleLine="true"
+                                                android:textColor="@android:color/black"
+                                                android:textSize="15sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_dates_multi_c"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:gravity="right"
+                                        android:orientation="horizontal"
+                                        android:weightSum="2" >
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="right"
+                                            android:orientation="vertical" >
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginBottom="5dp"
+                                                android:text="@string/depart_date"
+                                                android:textColor="@android:color/white" />
+
+                                            <LinearLayout
+                                                android:id="@+id/ll_depart_date_multi_c"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="50dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:background="@drawable/flight_tab_background"
+                                                android:gravity="center_vertical"
+                                                android:orientation="horizontal" >
+
+                                                <ImageView
+                                                    android:layout_width="35dp"
+                                                    android:layout_height="35dp"
+                                                    android:src="@drawable/calendar" />
+
+                                                <TextView
+                                                    android:id="@+id/tv_depart_date_multi_c"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:gravity="right"
+                                                    android:paddingEnd="5dp"
+                                                    android:paddingRight="5dp"
+                                                    android:text="09/06/2016"
+                                                    android:textColor="@android:color/black"
+                                                    android:textSize="15sp" />
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/l3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:visibility="gone" >
+
+                                <LinearLayout
+                                    android:id="@+id/ll_destination_multi_d"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="right|end"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/from"
+                                        android:textColor="@android:color/white" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_from_multi_d"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="45dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center|left"
+                                            android:orientation="horizontal" >
+
+                                            <TextView
+                                                android:id="@+id/tv_from_code_multi_d"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_margin="5dp"
+                                                android:text="KWI"
+                                                android:textSize="15sp"
+                                                android:textStyle="bold"
+                                                android:visibility="gone" />
+
+                                            <TextView
+                                                android:id="@+id/tv_from_city_multi_d"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:hint="@string/depart"
+                                                android:padding="8dp"
+                                                android:singleLine="true"
+                                                android:textColor="@android:color/black"
+                                                android:textSize="15sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:text="@string/to"
+                                        android:textColor="@android:color/white" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_switch_multi_d"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        android:src="@drawable/search_arrow"
+                                        android:visibility="gone" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_to_multi_d"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="45dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal" >
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center|left"
+                                            android:orientation="horizontal" >
+
+                                            <TextView
+                                                android:id="@+id/tv_to_code_multi_d"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_margin="5dp"
+                                                android:text="DXB"
+                                                android:textSize="15sp"
+                                                android:textStyle="bold"
+                                                android:visibility="gone" />
+
+                                            <TextView
+                                                android:id="@+id/tv_to_city_multi_d"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:hint="@string/arrival"
+                                                android:padding="8dp"
+                                                android:singleLine="true"
+                                                android:textColor="@android:color/black"
+                                                android:textSize="15sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_dates_multi_d"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:gravity="right"
+                                        android:orientation="horizontal"
+                                        android:weightSum="2" >
+
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="right"
+                                            android:orientation="vertical" >
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginBottom="5dp"
+                                                android:text="@string/depart_date"
+                                                android:textColor="@android:color/white" />
+
+                                            <LinearLayout
+                                                android:id="@+id/ll_depart_date_multi_d"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="50dp"
+                                                android:layout_marginRight="10dp"
+                                                android:background="@drawable/flight_tab_background"
+                                                android:gravity="center_vertical"
+                                                android:orientation="horizontal" >
+
+                                                <ImageView
+                                                    android:layout_width="35dp"
+                                                    android:layout_height="35dp"
+                                                    android:src="@drawable/calendar" />
+
+                                                <TextView
+                                                    android:id="@+id/tv_depart_date_multi_d"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:gravity="right"
+                                                    android:paddingEnd="5dp"
+                                                    android:paddingRight="5dp"
+                                                    android:text="09/06/2016"
+                                                    android:textColor="@android:color/black"
+                                                    android:textSize="15sp" />
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_trip_change"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="-55dp"
+                            android:gravity="right|end|center_vertical"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="right" >
+
+                                <ImageView
+                                    android:id="@+id/btn_remove_trip"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:padding="5dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/minus_trip"
+                                    android:visibility="gone" />
+
+                                <ImageView
+                                    android:id="@+id/btn_add_trip"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="5dp"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/plus_trip"
+                                    android:text="@string/add_trip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" >
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_passengers_multi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/infant1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1" >
+
+                                        <Spinner
+                                            android:id="@+id/sp_infant_count_multi"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:spinnerMode="dialog" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="5dp"
+                                    android:layout_height="match_parent" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/child1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1" >
+
+                                        <Spinner
+                                            android:id="@+id/sp_child_count_multi"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:spinnerMode="dialog" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="5dp"
+                                    android:layout_height="match_parent" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/adult1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1" >
+
+                                        <Spinner
+                                            android:id="@+id/sp_adult_count_multi"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:spinnerMode="dialog" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/clas"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_class_multi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/flight_tab_background"
+                                android:orientation="horizontal" >
+
+                                <Spinner
+                                    android:id="@+id/sp_class_multi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@android:color/transparent" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp" >
+
+                            <Button
+                                android:id="@+id/btn_search_multi"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/submit_button"
+                                android:padding="10dp"
+                                android:text="@string/search"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="15sp" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_non_stop_multi"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".8"
+                                android:background="#E0E0E0"
+                                android:gravity="center" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="10dp"
+                                    android:text="@string/direct" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_non_stop_multi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/checkbox_selector_direct"
+                                    android:clickable="false"
+                                    android:text="@null"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_roundtrip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible" >
+
+                        <LinearLayout
+                            android:id="@+id/ll_airport_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/from"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_from"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@drawable/flight_tab_background"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|left"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/tv_from_code"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:text="KWI"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/tv_from_city"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/depart"
+                                        android:padding="8dp"
+                                        android:singleLine="true"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/iv_switch"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/search_arrow"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="@string/to"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_to"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:background="@drawable/flight_tab_background"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center|left"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        android:id="@+id/tv_to_code"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:text="DXB"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/tv_to_city"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="@string/arrival"
+                                        android:padding="8dp"
+                                        android:singleLine="true"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_dates"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2" >
+
+                            <LinearLayout
+                                android:id="@+id/ll_return_date"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="@string/return_date"
+                                    android:textColor="@android:color/white" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/flight_tab_background"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/calendar" />
+
+                                    <TextView
+                                        android:id="@+id/tv_return_date"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:paddingEnd="5dp"
+                                        android:paddingRight="5dp"
+                                        android:text="09/06/2016"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/ll_depart_date"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="@string/depart_date"
+                                    android:textColor="@android:color/white" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/flight_tab_background"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:layout_width="35dp"
+                                        android:layout_height="35dp"
+                                        android:src="@drawable/calendar" />
+
+                                    <TextView
+                                        android:id="@+id/tv_depart_date"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:paddingEnd="5dp"
+                                        android:paddingRight="5dp"
+                                        android:text="09/06/2016"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_passengers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/infant1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1" >
+
+                                        <Spinner
+                                            android:id="@+id/sp_infant_count"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:spinnerMode="dialog" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="5dp"
+                                    android:layout_height="match_parent" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/child1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1" >
+
+                                        <Spinner
+                                            android:id="@+id/sp_child_count"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:spinnerMode="dialog" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="5dp"
+                                    android:layout_height="match_parent" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:orientation="vertical" >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="5dp"
+                                        android:text="@string/adult1"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="15sp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:background="@drawable/flight_tab_background"
+                                        android:gravity="center"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1" >
+
+                                        <Spinner
+                                            android:id="@+id/sp_adult_count"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:spinnerMode="dialog" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center_vertical" >
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="@string/prefered"
+                                    android:textColor="@android:color/white" />
+
+                                <LinearLayout
+                                    android:id="@+id/ll_preferred"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/flight_tab_background"
+                                    android:gravity="center"
+                                    android:orientation="horizontal" >
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center|left"
+                                        android:orientation="horizontal" >
+
+                                        <TextView
+                                            android:id="@+id/tv_preferred"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:ellipsize="marquee"
+                                            android:hint="@string/prefered"
+                                            android:padding="8dp"
+                                            android:singleLine="true"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="15sp" />
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/iv_pref_clear"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight=".2"
+                                        android:src="@drawable/close_btn"
+                                        android:visibility="gone" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="5dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:text="@string/clas"
+                                    android:textColor="@android:color/white" />
+
+                                <LinearLayout
+                                    android:id="@+id/ll_class"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/flight_tab_background"
+                                    android:orientation="horizontal" >
+
+                                    <Spinner
+                                        android:id="@+id/sp_class"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:background="@android:color/transparent" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <Button
+                                android:id="@+id/btn_search"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/submit_button"
+                                android:padding="10dp"
+                                android:text="@string/search"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="15sp" />
+
+                            <LinearLayout
+                                android:id="@+id/ll_non_stop"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".8"
+                                android:background="#E0E0E0"
+                                android:gravity="center" >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="10dp"
+                                    android:text="@string/direct" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_non_stop"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:button="@drawable/checkbox_selector_direct"
+                                    android:clickable="false"
+                                    android:text="@null"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

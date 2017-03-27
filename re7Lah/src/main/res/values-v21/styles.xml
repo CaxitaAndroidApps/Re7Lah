@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:statusBarColor">@color/bon_violet</item>
+    </style>
+
+</resources>

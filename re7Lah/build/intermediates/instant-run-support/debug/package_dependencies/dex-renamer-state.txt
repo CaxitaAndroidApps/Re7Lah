@@ -1,0 +1,19 @@
+#Mon Mar 27 13:44:38 IST 2017
+renamed.5=classes.dex
+renamed.4=classes6.dex
+renamed.3=classes3.dex
+renamed.2=classes4.dex
+renamed.1=classes2.dex
+renamed.0=classes5.dex
+base.5=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0ce8883013e3144fa2ec4f2290b369f9eeca9922
+base.4=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-23.4.0_fe2b15d29ab2f40bf0ef93f7b108c7c0a1dc15f5
+base.3=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_398b4f9f9102f4b5c49931b6dac2fb2c78c4a3e8
+base.2=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3d4bad4993062cd375d8860d6ca87738751c3d9e
+base.1=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_18002c16587f747548a9efc56c2551064c0414fa
+base.0=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-23.4.0_3b42e281d7909862ec5241f0e30da3dd369cb974
+file.5=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0ce8883013e3144fa2ec4f2290b369f9eeca9922\\classes.dex
+file.4=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-23.4.0_fe2b15d29ab2f40bf0ef93f7b108c7c0a1dc15f5\\classes.dex
+file.3=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_398b4f9f9102f4b5c49931b6dac2fb2c78c4a3e8\\classes.dex
+file.2=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3d4bad4993062cd375d8860d6ca87738751c3d9e\\classes.dex
+file.1=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_18002c16587f747548a9efc56c2551064c0414fa\\classes.dex
+file.0=E\:\\StudioWS\\Re7Lah\\re7Lah\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-23.4.0_3b42e281d7909862ec5241f0e30da3dd369cb974\\classes.dex

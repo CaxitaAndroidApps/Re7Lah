@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Re7Lah</string>
+    <string name="heading">Discover the places you never seen before</string>
+    <string name="english">ENGLISH</string>
+    <string name="arab">العربية</string>
+    <string name="flight">FLIGHT</string>
+    <string name="oneway">One Way</string>
+    <string name="round">Return</string>
+    <string name="multi">Multi City</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="depart">Leaving from</string>
+    <string name="arrival">Going to</string>
+    <string name="adult">Adult(s)</string>
+    <string name="children">Children</string>
+    <string name="search">Search</string>
+    <string name="searchfor">Search for a city or airport</string>
+    <string name="cityname">Enter a city name</string>
+    <string name="infant">Infant(s)</string>
+    <string name="city">City</string>
+    <string name="clas">Cabin / Class</string>
+    <string name="direct">Non Stop</string>
+    <string name="prefered">Preferred Airline</string>
+    <string name="enterprefered">Enter your preferred airline</string>
+    <string name="traveller">Travelers</string>
+    <string name="search_flight">Search Flight</string>
+    <string name="abo">About Us</string>
+    <string name="serv">Service</string>
+    <string name="mabo">My Booking</string>
+    <string name="register">Register</string>
+    <string name="cont">Contact Us</string>
+    <string name="or">or</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>My Booking</item>
+        <item>Contact Us</item>
+        <item>Mail Us</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_mybooking</item>
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_contact_us</item>
+        <item>@drawable/ic_mail</item>
+    </array>
+
+    <!-- Flight Class Spinner Items -->
+    <string-array name="class_spinner_items">
+        <item>Economy</item>
+        <item>Premium Economy</item>
+        <item>Business Class</item>
+        <item>First Class</item>
+    </string-array>
+
+    <string name="no_match">No entries matching your parameter</string>
+    <string name="error_title">Error</string>
+    <string name="error_msg_same_dep_arr">Departure and Arrival Airport should not be same.</string>
+    <string name="error_msg_same_dep_arr_multi_1">Departure and Arrival Airport should not be same.(Trip 1)</string>
+    <string name="error_msg_same_dep_arr_multi_2">Departure and Arrival Airport should not be same.(Trip 2)</string>
+    <string name="error_msg_same_dep_arr_multi_3">Departure and Arrival Airport should not be same.(Trip 3)</string>
+    <string name="error_msg_same_dep_arr_multi_4">Departure and Arrival Airport should not be same.(Trip 4)</string>
+    <string name="error_search_lmt">We can only search for a maximum of 9 passengers</string>
+    <string name="error_infant_cnt">Please note that no. of infants cannot exceed no. of adults.</string>
+    <string name="ok">OK</string>
+    <string name="error_no_internet_title">Internet Access Not Available</string>
+    <string name="error_no_internet_msg">This application requires working internet access. Please connect to the internet and try again.</string>
+    <string name="error_no_internet_settings">Settings</string>
+    <string name="error_no_internet_cancel">Cancel</string>
+    <string name="error_no_internet_close_app">Close Application</string>
+    <string name="default_city_to">Dubai</string>
+    <string name="default_city_from">Kuwait</string>
+    <string name="exit_msg">Click again to exit</string>
+    <string name="passenger_no">Passenger(s)</string>
+    <string name="add_trip">Add Trip +</string>
+    <string name="remove_trip">Remove Trip -</string>
+    <string name="non_stop">NON STOP</string>
+    <string name="depart_date">Departure</string>
+    <string name="return_date">Return</string>
+    <string name="checkin_date">Check-In Date</string>
+    <string name="checkout_date">Check-Out Date</string>
+    <string name="err_child_grt_adult">Number of children less than two years cannot exceed adults</string>
+    <string name="about_content">	    Content to be added</string>
+    <string name="contact_content">	    Content to be added</string>
+    <string name="service_content">		Content to be added</string>
+    <string name="contact_email">reservations@re7lah.com</string>
+
+    <string name="hotel">Hotel</string>
+    <!-- Hotel Room Nos -->
+    <string-array name="room_spinner_items">
+        <item>Room 1</item>
+        <item>Room 2</item>
+        <item>Room 3</item>
+        <item>Room 4</item>
+        <item>Room 5</item>
+    </string-array>
+
+    <string name="nationality">Nationality</string>
+    <string name="room">Room(s)</string>
+    <string name="room1">ROOM 1</string>
+    <string name="room2">ROOM 2</string>
+    <string name="room3">ROOM 3</string>
+    <string name="room4">ROOM 4</string>
+    <string name="room5">ROOM 5</string>
+    <string name="cityorhotel">Hotel Location</string>
+    <string name="type_city">Type City</string>
+    <string name="adult1">Adult (12+)</string>
+    <string name="child1">Child (2-11)</string>
+    <string name="infant1">Infant (&lt;2)</string>
+    <string name="add_room">ADD ROOM +</string>
+    <string name="remove_room">REMOVE -</string>
+    <string name="adult_nos">No. of adults</string>
+    <string name="child_nos">No. of Child(ren)</string>
+    <string name="guests">Guests,</string>
+    <string name="child1_age">Child 1 Age : </string>
+    <string name="child2_age">Child 2 Age : </string>
+    <string name="child3_age">Age of Child 3</string>
+    <string name="child4_age">Age of Child 4</string>
+    <string name="search_city_hotel">Search for a Hotel</string>
+    <string name="search_nation">Search for your Nationality</string>
+    <string name="search_hotel">Search Hotel</string>
+
+</resources>
