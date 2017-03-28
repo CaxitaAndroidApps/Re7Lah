@@ -119,8 +119,8 @@
     <string name="adult_nos">No. of adults</string>
     <string name="child_nos">No. of Child(ren)</string>
     <string name="guests">Guests,</string>
-    <string name="child1_age">Child 1 Age : </string>
-    <string name="child2_age">Child 2 Age : </string>
+    <string name="child1_age">Child 1 Age</string>
+    <string name="child2_age">Child 2 Age</string>
     <string name="child3_age">Age of Child 3</string>
     <string name="child4_age">Age of Child 4</string>
     <string name="search_city_hotel">Search for a Hotel</string>

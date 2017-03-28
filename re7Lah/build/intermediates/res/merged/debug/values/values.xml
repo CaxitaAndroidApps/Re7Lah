@@ -284,8 +284,8 @@
     <string name="checkin_date">Check-In Date</string>
     <string name="checkout_date">Check-Out Date</string>
     <string name="child1">Child (2-11)</string>
-    <string name="child1_age">Child 1 Age : </string>
-    <string name="child2_age">Child 2 Age : </string>
+    <string name="child1_age">Child 1 Age</string>
+    <string name="child2_age">Child 2 Age</string>
     <string name="child3_age">Age of Child 3</string>
     <string name="child4_age">Age of Child 4</string>
     <string name="child_nos">No. of Child(ren)</string>

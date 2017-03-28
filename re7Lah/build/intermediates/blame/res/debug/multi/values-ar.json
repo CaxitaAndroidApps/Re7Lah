@@ -12,7 +12,15 @@
                     "endOffset": 260
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1729,
+                        "endLine": 48,
+                        "endColumn": 19,
+                        "endOffset": 1939
+                    }
                 }
             },
             {
@@ -25,7 +33,15 @@
                     "endOffset": 447
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1238,
+                        "endLine": 33,
+                        "endColumn": 19,
+                        "endOffset": 1425
+                    }
                 }
             },
             {
@@ -38,7 +54,15 @@
                     "endOffset": 652
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 3931,
+                        "endLine": 85,
+                        "endColumn": 19,
+                        "endOffset": 4137
+                    }
                 }
             },
             {
@@ -50,7 +74,14 @@
                     "endOffset": 769
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 116,
+                        "endOffset": 167
+                    }
                 }
             },
             {
@@ -62,7 +93,14 @@
                     "endOffset": 877
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 107,
+                        "endOffset": 275
+                    }
                 }
             },
             {
@@ -74,7 +112,14 @@
                     "endOffset": 1000
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 122,
+                        "endOffset": 398
+                    }
                 }
             },
             {
@@ -86,7 +131,14 @@
                     "endOffset": 1104
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 103,
+                        "endOffset": 502
+                    }
                 }
             },
             {
@@ -98,7 +150,14 @@
                     "endOffset": 1213
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 507,
+                        "endColumn": 108,
+                        "endOffset": 611
+                    }
                 }
             },
             {
@@ -110,7 +169,14 @@
                     "endOffset": 1295
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 616,
+                        "endColumn": 81,
+                        "endOffset": 693
+                    }
                 }
             },
             {
@@ -122,7 +188,14 @@
                     "endOffset": 1396
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 100,
+                        "endOffset": 794
+                    }
                 }
             },
             {
@@ -134,7 +207,14 @@
                     "endOffset": 1510
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 799,
+                        "endColumn": 113,
+                        "endOffset": 908
+                    }
                 }
             },
             {
@@ -146,7 +226,14 @@
                     "endOffset": 1589
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 913,
+                        "endColumn": 78,
+                        "endOffset": 987
+                    }
                 }
             },
             {
@@ -158,7 +245,14 @@
                     "endOffset": 1668
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 78,
+                        "endOffset": 1066
+                    }
                 }
             },
             {
@@ -170,7 +264,14 @@
                     "endOffset": 1747
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1071,
+                        "endColumn": 78,
+                        "endOffset": 1145
+                    }
                 }
             },
             {
@@ -182,7 +283,14 @@
                     "endOffset": 1852
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1150,
+                        "endColumn": 104,
+                        "endOffset": 1250
+                    }
                 }
             },
             {
@@ -194,7 +302,14 @@
                     "endOffset": 1953
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1255,
+                        "endColumn": 100,
+                        "endOffset": 1351
+                    }
                 }
             },
             {
@@ -206,7 +321,14 @@
                     "endOffset": 2049
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1356,
+                        "endColumn": 95,
+                        "endOffset": 1447
+                    }
                 }
             },
             {
@@ -218,7 +340,14 @@
                     "endOffset": 2157
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1452,
+                        "endColumn": 107,
+                        "endOffset": 1555
+                    }
                 }
             },
             {
@@ -230,7 +359,14 @@
                     "endOffset": 2260
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 102,
+                        "endOffset": 1658
+                    }
                 }
             },
             {
@@ -242,7 +378,14 @@
                     "endOffset": 2363
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1663,
+                        "endColumn": 102,
+                        "endOffset": 1761
+                    }
                 }
             },
             {
@@ -254,7 +397,14 @@
                     "endOffset": 2482
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1766,
+                        "endColumn": 118,
+                        "endOffset": 1880
+                    }
                 }
             },
             {
@@ -266,7 +416,14 @@
                     "endOffset": 2579
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1885,
+                        "endColumn": 96,
+                        "endOffset": 1977
+                    }
                 }
             },
             {
@@ -278,7 +435,14 @@
                     "endOffset": 2620
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1433,
+                        "endColumn": 40,
+                        "endOffset": 1469
+                    }
                 }
             },
             {
@@ -290,7 +454,14 @@
                     "endOffset": 2668
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 4743,
+                        "endColumn": 47,
+                        "endOffset": 4786
+                    }
                 }
             },
             {
@@ -302,7 +473,14 @@
                     "endOffset": 2721
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3436,
+                        "endColumn": 52,
+                        "endOffset": 3484
+                    }
                 }
             },
             {
@@ -314,7 +492,14 @@
                     "endOffset": 2760
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 569,
+                        "endColumn": 38,
+                        "endOffset": 603
+                    }
                 }
             },
             {
@@ -326,7 +511,14 @@
                     "endOffset": 2809
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 4595,
+                        "endColumn": 48,
+                        "endOffset": 4639
+                    }
                 }
             },
             {
@@ -338,7 +530,14 @@
                     "endOffset": 2859
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4886,
+                        "endColumn": 49,
+                        "endOffset": 4931
+                    }
                 }
             },
             {
@@ -350,7 +549,14 @@
                     "endOffset": 2900
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 180,
+                        "endColumn": 40,
+                        "endOffset": 216
+                    }
                 }
             },
             {
@@ -362,7 +568,14 @@
                     "endOffset": 2943
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endColumn": 42,
+                        "endOffset": 563
+                    }
                 }
             },
             {
@@ -374,7 +587,14 @@
                     "endOffset": 2997
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 3650,
+                        "endColumn": 53,
+                        "endOffset": 3699
+                    }
                 }
             },
             {
@@ -386,7 +606,14 @@
                     "endOffset": 3052
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3705,
+                        "endColumn": 54,
+                        "endOffset": 3755
+                    }
                 }
             },
             {
@@ -398,7 +625,14 @@
                     "endOffset": 3099
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 4645,
+                        "endColumn": 46,
+                        "endOffset": 4687
+                    }
                 }
             },
             {
@@ -410,7 +644,14 @@
                     "endOffset": 3151
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4987,
+                        "endColumn": 51,
+                        "endOffset": 5034
+                    }
                 }
             },
             {
@@ -422,7 +663,14 @@
                     "endOffset": 3202
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 5040,
+                        "endColumn": 50,
+                        "endOffset": 5086
+                    }
                 }
             },
             {
@@ -434,7 +682,14 @@
                     "endOffset": 3251
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 5092,
+                        "endColumn": 48,
+                        "endOffset": 5136
+                    }
                 }
             },
             {
@@ -446,7 +701,14 @@
                     "endOffset": 3300
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 5142,
+                        "endColumn": 48,
+                        "endOffset": 5186
+                    }
                 }
             },
             {
@@ -458,7 +720,14 @@
                     "endOffset": 3349
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4937,
+                        "endColumn": 48,
+                        "endOffset": 4981
+                    }
                 }
             },
             {
@@ -470,7 +739,14 @@
                     "endOffset": 3390
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 609,
+                        "endColumn": 40,
+                        "endOffset": 645
+                    }
                 }
             },
             {
@@ -482,7 +758,14 @@
                     "endOffset": 3431
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 859,
+                        "endColumn": 40,
+                        "endOffset": 895
+                    }
                 }
             },
             {
@@ -494,7 +777,14 @@
                     "endOffset": 3492
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 797,
+                        "endColumn": 60,
+                        "endOffset": 853
+                    }
                 }
             },
             {
@@ -506,7 +796,14 @@
                     "endOffset": 3544
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 4442,
+                        "endColumn": 51,
+                        "endOffset": 4489
+                    }
                 }
             },
             {
@@ -518,7 +815,14 @@
                     "endOffset": 3593
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 901,
+                        "endColumn": 48,
+                        "endOffset": 945
+                    }
                 }
             },
             {
@@ -530,7 +834,14 @@
                     "endOffset": 3635
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1608,
+                        "endColumn": 41,
+                        "endOffset": 1645
+                    }
                 }
             },
             {
@@ -542,7 +853,14 @@
                     "endOffset": 3688
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3271,
+                        "endColumn": 52,
+                        "endOffset": 3319
+                    }
                 }
             },
             {
@@ -554,7 +872,14 @@
                     "endOffset": 3736
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3222,
+                        "endColumn": 47,
+                        "endOffset": 3265
+                    }
                 }
             },
             {
@@ -566,7 +891,14 @@
                     "endOffset": 3778
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 482,
+                        "endColumn": 41,
+                        "endOffset": 519
+                    }
                 }
             },
             {
@@ -578,7 +910,14 @@
                     "endOffset": 3831
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 3542,
+                        "endColumn": 52,
+                        "endOffset": 3590
+                    }
                 }
             },
             {
@@ -590,7 +929,14 @@
                     "endOffset": 3878
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 951,
+                        "endColumn": 46,
+                        "endOffset": 993
+                    }
                 }
             },
             {
@@ -602,7 +948,14 @@
                     "endOffset": 3925
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 132,
+                        "endColumn": 46,
+                        "endOffset": 174
+                    }
                 }
             },
             {
@@ -614,7 +967,14 @@
                     "endOffset": 3996
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1058,
+                        "endColumn": 70,
+                        "endOffset": 1124
+                    }
                 }
             },
             {
@@ -626,7 +986,14 @@
                     "endOffset": 4094
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 3761,
+                        "endColumn": 97,
+                        "endOffset": 3854
+                    }
                 }
             },
             {
@@ -638,7 +1005,14 @@
                     "endOffset": 4164
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 5311,
+                        "endColumn": 69,
+                        "endOffset": 5376
+                    }
                 }
             },
             {
@@ -650,7 +1024,14 @@
                     "endOffset": 4235
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 5382,
+                        "endColumn": 70,
+                        "endOffset": 5448
+                    }
                 }
             },
             {
@@ -662,7 +1043,14 @@
                     "endOffset": 4323
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2675,
+                        "endColumn": 87,
+                        "endOffset": 2758
+                    }
                 }
             },
             {
@@ -674,7 +1062,14 @@
                     "endOffset": 4412
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2063,
+                        "endColumn": 88,
+                        "endOffset": 2147
+                    }
                 }
             },
             {
@@ -686,7 +1081,14 @@
                     "endOffset": 4521
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2153,
+                        "endColumn": 108,
+                        "endOffset": 2257
+                    }
                 }
             },
             {
@@ -698,7 +1100,14 @@
                     "endOffset": 4629
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2263,
+                        "endColumn": 107,
+                        "endOffset": 2366
+                    }
                 }
             },
             {
@@ -710,7 +1119,14 @@
                     "endOffset": 4736
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2372,
+                        "endColumn": 106,
+                        "endOffset": 2474
+                    }
                 }
             },
             {
@@ -722,7 +1138,14 @@
                     "endOffset": 4844
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2480,
+                        "endColumn": 107,
+                        "endOffset": 2583
+                    }
                 }
             },
             {
@@ -734,7 +1157,14 @@
                     "endOffset": 4903
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3090,
+                        "endColumn": 58,
+                        "endOffset": 3144
+                    }
                 }
             },
             {
@@ -746,7 +1176,14 @@
                     "endOffset": 4974
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3150,
+                        "endColumn": 70,
+                        "endOffset": 3216
+                    }
                 }
             },
             {
@@ -758,7 +1195,14 @@
                     "endOffset": 5114
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2885,
+                        "endColumn": 139,
+                        "endOffset": 3020
+                    }
                 }
             },
             {
@@ -770,7 +1214,14 @@
                     "endOffset": 5177
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3026,
+                        "endColumn": 62,
+                        "endOffset": 3084
+                    }
                 }
             },
             {
@@ -782,7 +1233,14 @@
                     "endOffset": 5259
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 2802,
+                        "endColumn": 81,
+                        "endOffset": 2879
+                    }
                 }
             },
             {
@@ -794,7 +1252,14 @@
                     "endOffset": 5344
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2589,
+                        "endColumn": 84,
+                        "endOffset": 2669
+                    }
                 }
             },
             {
@@ -806,7 +1271,14 @@
                     "endOffset": 5388
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2018,
+                        "endColumn": 43,
+                        "endOffset": 2057
+                    }
                 }
             },
             {
@@ -818,7 +1290,14 @@
                     "endOffset": 5446
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3325,
+                        "endColumn": 57,
+                        "endOffset": 3378
+                    }
                 }
             },
             {
@@ -830,7 +1309,14 @@
                     "endOffset": 5493
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 46,
+                        "endOffset": 264
+                    }
                 }
             },
             {
@@ -842,7 +1328,14 @@
                     "endOffset": 5529
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 409,
+                        "endColumn": 35,
+                        "endOffset": 440
+                    }
                 }
             },
             {
@@ -854,7 +1347,14 @@
                     "endOffset": 5573
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4841,
+                        "endColumn": 43,
+                        "endOffset": 4880
+                    }
                 }
             },
             {
@@ -866,7 +1366,14 @@
                     "endOffset": 5645
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 71,
+                        "endOffset": 126
+                    }
                 }
             },
             {
@@ -878,7 +1385,14 @@
                     "endOffset": 5684
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 3862,
+                        "endColumn": 38,
+                        "endOffset": 3896
+                    }
                 }
             },
             {
@@ -890,7 +1404,14 @@
                     "endOffset": 5724
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 651,
+                        "endColumn": 39,
+                        "endOffset": 686
+                    }
                 }
             },
             {
@@ -921,7 +1442,14 @@
                     "endOffset": 5831
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\library_modified\\build\\intermediates\\bundles\\default\\res\\values-ar\\values-ar.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\library_modified\\build\\intermediates\\bundles\\default\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
                 }
             },
             {
@@ -933,7 +1461,14 @@
                     "endOffset": 5877
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1517,
+                        "endColumn": 45,
+                        "endOffset": 1558
+                    }
                 }
             },
             {
@@ -945,7 +1480,14 @@
                     "endOffset": 5924
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 361,
+                        "endColumn": 46,
+                        "endOffset": 403
+                    }
                 }
             },
             {
@@ -957,7 +1499,14 @@
                     "endOffset": 5976
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 4542,
+                        "endColumn": 51,
+                        "endOffset": 4589
+                    }
                 }
             },
             {
@@ -969,7 +1518,14 @@
                     "endOffset": 6024
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 4145,
+                        "endColumn": 47,
+                        "endOffset": 4188
+                    }
                 }
             },
             {
@@ -981,7 +1537,14 @@
                     "endOffset": 6094
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1947,
+                        "endColumn": 69,
+                        "endOffset": 2012
+                    }
                 }
             },
             {
@@ -993,7 +1556,14 @@
                     "endOffset": 6131
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2764,
+                        "endColumn": 36,
+                        "endOffset": 2796
+                    }
                 }
             },
             {
@@ -1005,7 +1575,14 @@
                     "endOffset": 6175
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 43,
+                        "endOffset": 309
+                    }
                 }
             },
             {
@@ -1017,7 +1594,14 @@
                     "endOffset": 6209
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 1651,
+                        "endColumn": 33,
+                        "endOffset": 1680
+                    }
                 }
             },
             {
@@ -1029,7 +1613,14 @@
                     "endOffset": 6260
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 3384,
+                        "endColumn": 50,
+                        "endOffset": 3430
+                    }
                 }
             },
             {
@@ -1041,7 +1632,14 @@
                     "endOffset": 6318
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 999,
+                        "endColumn": 57,
+                        "endOffset": 1052
+                    }
                 }
             },
             {
@@ -1053,7 +1651,14 @@
                     "endOffset": 6361
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 1564,
+                        "endColumn": 42,
+                        "endOffset": 1602
+                    }
                 }
             },
             {
@@ -1065,7 +1670,14 @@
                     "endOffset": 6409
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4792,
+                        "endColumn": 47,
+                        "endOffset": 4835
+                    }
                 }
             },
             {
@@ -1077,7 +1689,14 @@
                     "endOffset": 6460
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3490,
+                        "endColumn": 50,
+                        "endOffset": 3536
+                    }
                 }
             },
             {
@@ -1089,7 +1708,14 @@
                     "endOffset": 6513
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 3596,
+                        "endColumn": 52,
+                        "endOffset": 3644
+                    }
                 }
             },
             {
@@ -1101,7 +1727,14 @@
                     "endOffset": 6550
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 4194,
+                        "endColumn": 36,
+                        "endOffset": 4226
+                    }
                 }
             },
             {
@@ -1113,7 +1746,14 @@
                     "endOffset": 6591
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4232,
+                        "endColumn": 40,
+                        "endOffset": 4268
+                    }
                 }
             },
             {
@@ -1125,7 +1765,14 @@
                     "endOffset": 6632
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 4274,
+                        "endColumn": 40,
+                        "endOffset": 4310
+                    }
                 }
             },
             {
@@ -1137,7 +1784,14 @@
                     "endOffset": 6673
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 4316,
+                        "endColumn": 40,
+                        "endOffset": 4352
+                    }
                 }
             },
             {
@@ -1149,7 +1803,14 @@
                     "endOffset": 6714
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 4358,
+                        "endColumn": 40,
+                        "endOffset": 4394
+                    }
                 }
             },
             {
@@ -1161,7 +1822,14 @@
                     "endOffset": 6755
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 4400,
+                        "endColumn": 40,
+                        "endOffset": 4436
+                    }
                 }
             },
             {
@@ -1173,7 +1841,14 @@
                     "endOffset": 6800
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endColumn": 44,
+                        "endOffset": 355
+                    }
                 }
             },
             {
@@ -1185,7 +1860,14 @@
                     "endOffset": 6839
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 692,
+                        "endColumn": 38,
+                        "endOffset": 726
+                    }
                 }
             },
             {
@@ -1197,7 +1879,14 @@
                     "endOffset": 6899
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 5192,
+                        "endColumn": 59,
+                        "endOffset": 5247
+                    }
                 }
             },
             {
@@ -1209,7 +1898,14 @@
                     "endOffset": 6957
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1177,
+                        "endColumn": 57,
+                        "endOffset": 1230
+                    }
                 }
             },
             {
@@ -1221,7 +1917,14 @@
                     "endOffset": 7012
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 5454,
+                        "endColumn": 54,
+                        "endOffset": 5504
+                    }
                 }
             },
             {
@@ -1233,7 +1936,14 @@
                     "endOffset": 7069
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 5253,
+                        "endColumn": 56,
+                        "endOffset": 5305
+                    }
                 }
             },
             {
@@ -1245,7 +1955,14 @@
                     "endOffset": 7133
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 732,
+                        "endColumn": 63,
+                        "endOffset": 791
+                    }
                 }
             },
             {
@@ -1257,7 +1974,14 @@
                     "endOffset": 7174
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1475,
+                        "endColumn": 40,
+                        "endOffset": 1511
+                    }
                 }
             },
             {
@@ -1269,7 +1993,14 @@
                     "endOffset": 7275
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\ad222fb89590904a3058a4650a7dc4afbb7d0496\\output\\res\\values-ar\\values-ar.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 100,
+                        "endOffset": 2078
+                    }
                 }
             },
             {
@@ -1281,7 +2012,14 @@
                     "endOffset": 7310
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 34,
+                        "endOffset": 476
+                    }
                 }
             },
             {
@@ -1293,7 +2031,14 @@
                     "endOffset": 7356
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1130,
+                        "endColumn": 45,
+                        "endOffset": 1171
+                    }
                 }
             },
             {
@@ -1305,7 +2050,14 @@
                     "endOffset": 7402
                 },
                 "from": {
-                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml"
+                    "file": "E:\\StudioWS\\Re7Lah\\re7Lah\\src\\main\\res\\values-ar\\strings.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 4495,
+                        "endColumn": 45,
+                        "endOffset": 4536
+                    }
                 }
             }
         ]

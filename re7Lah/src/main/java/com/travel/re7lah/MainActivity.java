@@ -17,21 +17,30 @@ import com.travel.re7lah.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
+import android.util.Log;
 import android.webkit.CookieManager;
 
 public class MainActivity extends Activity {
 
 	private Locale myLocale;
 	CommonFunctions cf;
+	AlertDialog.Builder alertDialog;
+	AlertDialog alert;
+	BroadcastReceiver br;
+	boolean flag = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +53,20 @@ public class MainActivity extends Activity {
 			new backUpdateCheck().execute();
 		else
 			noInternetAlert();
+	}
+
+	@Override
+	protected void onRestart() {
+		// TODO Auto-generated method stub
+
+		if (flag) {
+			flag = false;
+			if (cf.isConnectingToInternet())
+				new backUpdateCheck().execute();
+			else
+				noInternetAlert();
+		}
+		super.onRestart();
 	}
 
 	public void splash() {
@@ -61,29 +84,33 @@ public class MainActivity extends Activity {
 	}
 
 	public void noInternetAlert() {
-		AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
-
+		// TO show alert for no Internet
+		alertDialog = new AlertDialog.Builder(this);
+		alert = alertDialog.create();
 		// Setting Dialog Title
-		alertDialog.setTitle(getResources().getString(
+		alert.setTitle(getResources().getString(
 				R.string.error_no_internet_title));
 
 		// Setting Dialog Message
-		alertDialog.setMessage(getResources().getString(
+		alert.setMessage(getResources().getString(
 				R.string.error_no_internet_msg));
 
 		// Setting OK Button
-		alertDialog.setPositiveButton(
+		alert.setButton(AlertDialog.BUTTON_POSITIVE,
 				getResources().getString(R.string.error_no_internet_settings),
 				new AlertDialog.OnClickListener() {
 
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						// intent to move mobile settings
+						flag = true;
 						dialog.dismiss();
-						startActivity(new Intent(Settings.ACTION_SETTINGS));
+						startActivity(new Intent(
+								Settings.ACTION_SETTINGS));
+
 					}
 				});
-		alertDialog.setNegativeButton(
+		alert.setButton(AlertDialog.BUTTON_NEGATIVE,
 				getResources().getString(R.string.error_no_internet_close_app),
 				new DialogInterface.OnClickListener() {
 
@@ -101,8 +128,43 @@ public class MainActivity extends Activity {
 				});
 
 		// Showing Alert Message
-		alertDialog.setCancelable(false);
-		alertDialog.show();
+		alert.setCancelable(false);
+		alert.show();
+		checkInternetConnection();
+	}
+
+	private void checkInternetConnection() {
+
+		if (br == null) {
+
+			br = new BroadcastReceiver() {
+
+				@Override
+				public void onReceive(Context context, Intent intent) {
+
+					Bundle extras = intent.getExtras();
+
+					NetworkInfo info = (NetworkInfo) extras
+							.getParcelable("networkInfo");
+
+					NetworkInfo.State state = info.getState();
+					Log.d("TEST Internet", info.toString() + " "
+							+ state.toString());
+
+					if (state == NetworkInfo.State.CONNECTED) {
+						if(alert != null && alert.isShowing()){
+							alert.dismiss();
+						}
+						new backUpdateCheck().execute();
+
+					}
+				}
+			};
+
+			final IntentFilter intentFilter = new IntentFilter();
+			intentFilter.addAction(ConnectivityManager.CONNECTIVITY_ACTION);
+			registerReceiver((BroadcastReceiver) br, intentFilter);
+		}
 	}
 
 	private class backUpdateCheck extends AsyncTask<Void, Void, String> {

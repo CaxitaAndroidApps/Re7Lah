@@ -2,25 +2,25 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_background" >
+    android:background="@drawable/ic_background">
 
     <!-- Framelayout to display Fragments -->
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right|end"
                 android:orientation="vertical"
-                android:padding="10dp" >
+                android:padding="10dp">
 
                 <TextView
                     android:id="@+id/textView1"
@@ -35,13 +35,13 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:paddingBottom="10dp"
-                android:weightSum="2" >
+                android:weightSum="2">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1.1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -50,19 +50,19 @@
                         android:layout_weight="1"
                         android:background="@drawable/ic_btn_background"
                         android:gravity="center"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <RelativeLayout
                             android:id="@+id/rl_flight"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:clickable="true"
-                            android:onClick="clicker" >
+                            android:onClick="clicker">
 
                             <ImageView
                                 android:id="@+id/iv_flight"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
                                 android:layout_centerHorizontal="true"
                                 android:src="@drawable/ic_flight" />
 
@@ -88,19 +88,19 @@
                         android:layout_weight="1"
                         android:background="@drawable/ic_btn_background"
                         android:gravity="center"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <RelativeLayout
                             android:id="@+id/rl_hotel"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:clickable="true"
-                            android:onClick="clicker" >
+                            android:onClick="clicker">
 
                             <ImageView
                                 android:id="@+id/iv_hotel"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
+                                android:layout_width="45dp"
+                                android:layout_height="40dp"
                                 android:layout_centerHorizontal="true"
                                 android:src="@drawable/ic_hotel" />
 
@@ -126,19 +126,19 @@
                         android:layout_weight="1"
                         android:background="@drawable/ic_btn_background"
                         android:gravity="center"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <RelativeLayout
                             android:id="@+id/rl_booking"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:clickable="true"
-                            android:onClick="clicker" >
+                            android:onClick="clicker">
 
                             <ImageView
                                 android:id="@+id/iv_booking"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
+                                android:layout_width="45dp"
+                                android:layout_height="40dp"
                                 android:layout_centerHorizontal="true"
                                 android:scaleType="fitEnd"
                                 android:src="@drawable/ic_mybooking" />
@@ -165,19 +165,19 @@
                         android:layout_weight="1"
                         android:background="@drawable/ic_btn_background"
                         android:gravity="center"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <RelativeLayout
                             android:id="@+id/rl_register"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:clickable="true"
-                            android:onClick="clicker" >
+                            android:onClick="clicker">
 
                             <ImageView
                                 android:id="@+id/iv_register"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
+                                android:layout_width="45dp"
+                                android:layout_height="40dp"
                                 android:layout_centerHorizontal="true"
                                 android:scaleType="fitEnd"
                                 android:src="@drawable/ic_register" />
@@ -208,7 +208,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <ListView
             android:id="@+id/list_slidermenu"

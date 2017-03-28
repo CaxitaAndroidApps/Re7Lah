@@ -20,9 +20,9 @@ public class CommonFunctions {
 	public static String strCurrency = "KWD";
     private Context _context;
 //    public static String main_url = "http://192.168.1.100/Bonvoyage/";
-//    public static String main_url = "http://113.193.253.130/Bonvoyage/";
+    public static String main_url = "http://113.193.253.130/Bonvoyage/";
 //    public static String main_url = "http://re7lah.caxita.ca/";
-    public static String main_url = "http://www.re7lah.com/";
+//    public static String main_url = "http://www.re7lah.com/";
      
     public CommonFunctions(Context context){
         this._context = context;

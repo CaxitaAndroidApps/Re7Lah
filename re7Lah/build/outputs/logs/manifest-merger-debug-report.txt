@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml
@@ -17,6 +17,7 @@ ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:2:1-44:12
 		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Android\.android\build-cache\a942492d89e633954d444d476a675a695d18b7c2\output\AndroidManifest.xml:18:5-42
 MERGED from [Re7Lah:library_modified:unspecified] E:\StudioWS\Re7Lah\library_modified\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Android\.android\build-cache\ad222fb89590904a3058a4650a7dc4afbb7d0496\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Android\.android\build-cache\fe5ba6cab39a17200bdf9973fc9013a9ec9dbdc3\output\AndroidManifest.xml:5:5-44
@@ -33,60 +34,62 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Android\.android\bu
 		INJECTED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml
 		INJECTED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:10:5-66
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:10:22-64
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:11:5-78
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:11:22-76
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:12:22-76
 application
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:13:5-42:19
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:14:5-44:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Android\.android\build-cache\ad222fb89590904a3058a4650a7dc4afbb7d0496\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Android\.android\build-cache\fe5ba6cab39a17200bdf9973fc9013a9ec9dbdc3\output\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Android\.android\build-cache\4100f143ec411ee3ee15ced6aaf6b5f87ec0db11\output\AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Android\.android\build-cache\945cde8f5bdaf7eb280fc523778a16fda7c9b194\output\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:16:9-41
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:14:9-35
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:15:9-45
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:17:9-45
 	android:theme
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:17:9-40
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:15:9-40
 activity#com.travel.re7lah.MainActivity
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:18:9-27:20
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:20:9-29:20
 	android:screenOrientation
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:20:13-49
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:22:13-49
 	android:theme
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:21:13-77
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:23:13-77
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:19:13-58
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:21:13-58
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:23:17-69
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:23:25-66
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:25:17-77
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:25:27-74
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:27:27-74
 activity#com.travel.re7lah.MenuSelectionAcitivity
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:29:9-31:62
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:31:9-33:61
 	android:screenOrientation
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:31:13-49
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:33:13-49
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:30:13-68
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:32:13-68
 activity#com.travel.re7lah.FragmentHolderActivity
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:33:9-35:62
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:35:9-37:61
 	android:screenOrientation
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:35:13-49
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:37:13-49
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:34:13-68
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:36:13-68
 activity#com.travel.re7lah.SearchPageActivity
-ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:37:9-39:62
+ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:39:9-41:61
 	android:screenOrientation
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:39:13-49
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:38:13-64
+		ADDED from E:\StudioWS\Re7Lah\re7Lah\src\main\AndroidManifest.xml:40:13-64

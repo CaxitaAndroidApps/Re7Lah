@@ -60,7 +60,10 @@ public class MenuSelectionAcitivity extends Activity {
 		super.onCreate(savedInstanceState);
 		cf = new CommonFunctions(this);
 		loadLocale();
-		
+		setContentView(R.layout.activity_main_selection);
+		loadAppBar();
+		addListItems();
+
 		lan = CommonFunctions.lang;
 		
 		if(CommonFunctions.updateApp) {
@@ -117,6 +120,9 @@ public class MenuSelectionAcitivity extends Activity {
 		if(!lan.equalsIgnoreCase(CommonFunctions.lang)) {
 			loadLocale();
 			lan = CommonFunctions.lang;
+			setContentView(R.layout.activity_main_selection);
+			loadAppBar();
+			addListItems();
 		}
 		super.onRestart();
 	}
@@ -342,9 +348,6 @@ public class MenuSelectionAcitivity extends Activity {
 			this.getBaseContext().getResources().updateConfiguration(config, this.getBaseContext().getResources().getDisplayMetrics());
 			CommonFunctions.lang = "en";
 		}
-		setContentView(R.layout.activity_main_selection);
-		loadAppBar();
-		addListItems();
 	}
 	
 	public void changeLang(String lang) {
